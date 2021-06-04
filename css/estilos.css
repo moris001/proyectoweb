@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont;
+    src: url('../fuentes/CODE\ Bold.otf'),url('../fuentes/CODE\ Light.otf');
+}
+body{
+    font-family: myfont;
+    src: url(../fuentes/CODE\ Bold.otf), url(../fuentes/CODE\ Light.otf);
+}
+@media (max-width: 600px){ /* TABLET */
+    .contenedor{
+        width: 100%;
+    }
+    .contenedor_logo div{
+        width: 100%;
+        justify-content: center;
+    }
+    .contenedor_logo img{
+        width: 100%;
+    }
+    .contenedor_menu {
+        flex-wrap: wrap;
+    } 
+    .contenedor_menu li{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 768px){ /* ESCRITORIO */
+    .contenedor{
+        width: 80%;
+    }
+}
+.contenedor{
+    background-color:rgba(192, 192, 240, 0.056);/*
+    background-color: rgba(255, 255, 255, 0.905);*/
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Bpagina{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(31, 114, 238);
+    display: flex;
+    justify-content: center ;
+}
+.Bpagina footer p{
+    text-decoration: none;
+    height: 40px;
+    list-style: 40px;
+    color: white;
+}
+

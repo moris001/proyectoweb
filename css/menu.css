@@ -1,0 +1,54 @@
+.contenedor_menu {
+    background-color: rgb(31, 114, 238);
+    height: 20%;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: none;
+}
+nav{
+    background-color: rgb(31, 114, 238);
+    width: 100%;
+ }
+.contenedor_menu li{
+    padding: 15px;
+}
+nav li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    line-height: 0px;
+}
+.contenedor_logo{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+    float: left;
+}/*
+nav li{
+    display: flex;
+    
+}*/
+.cambio{
+    background-color: coral;
+    padding: 15px;
+}
+/*iconos*/
+.icono{
+    float: right;
+}
+.icono a i{
+    color: black;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
