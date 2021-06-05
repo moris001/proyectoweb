@@ -60,3 +60,11 @@ body{
     color: white;
 }
 
+.contenedor_carrito div{
+    float: right;
+}
+.contenedor_carrito li{
+   
+    list-style-type: none;
+}
+
