@@ -40,13 +40,23 @@ header{
         text-align: center;
     }
     .contenedor_carrito{
-        width: 40px;
-        height: 40px;
+        width: 50%;
         float: right;
+        height: 40%;
+        background-color:rgba(0, 0, 0, 0);
     }
     .contenedor_carrito img{
-        width: 60px;
-        height: 40px;
+        width: 80px; 
+    }
+    .contenedor_carrito li{
+        float: right;
+    }
+    .icono{
+        width: 40%;
+    }
+    .icono img{
+        width: 90px;
+        height: 90px;
     }
 
 }
@@ -84,9 +94,6 @@ header{
 .contenedor_carrito li{   
     list-style-type: none;
 }
-.contenedor_carrito h4{
-    text-align: right;
-}
 .fondito{
     background-color: rgba(255, 255, 255, 0.796);
     box-shadow: 0 0 30px -10px rgb(49, 54, 186);
@@ -95,5 +102,20 @@ header{
     text-align: center;
     color: white;
     text-shadow:3px 3px black;
+}
+.icono{
+    width: auto;
+    float: right;
+}
+.icono img{
+    width: 55px;
+    height: 55px;
+}
+.icono a i{
+    color: black;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
