@@ -6,13 +6,13 @@ body{
     font-family: sans-serif;
     height: 100vh; 
 }
-
 .loginbox{
-    width: 320px;
-    height: 420px;
-    background: #000;
-    color: #fff;
-    top: 75%;
+    width: 330px;
+    height: 460px;
+    background: rgba(0, 0, 0, 0.309);
+    box-shadow: 0 0 40px -10px rgb(49, 54, 186);
+    color:#fff;
+    top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -33,7 +33,6 @@ body{
     padding: 0 0 20px;
     text-align: center;
     font-size: 30px;
-
 }
 
 .loginbox label{
@@ -66,14 +65,14 @@ body{
     background-color: #b80f22;
     color: #fff;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .loginbox a{
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color: darkgray;
+    color: white;
 }
 
 .loginbox a:hover {
