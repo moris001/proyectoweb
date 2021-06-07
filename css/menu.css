@@ -16,6 +16,11 @@ nav{
 .contenedor_menu li{
     padding: 15px;
 }
+.contenedor_menu li:hover{
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
 nav li a{
     font-size: 18px;
     text-decoration: none;

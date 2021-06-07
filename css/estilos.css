@@ -14,6 +14,7 @@ body{
     src: url(../fuentes/CODE\ Bold.otf), url(../fuentes/CODE\ Light.otf);
     background: url(../imagenes/bg.jpeg) no-repeat center top;
     background-size: cover;
+    height: 100vh; 
 }
 header{
     background-color: rgba(255, 255, 255, 0.234)
@@ -25,44 +26,97 @@ header{
     .contenedor{
         width: 100%;
     }
+    .contenedor_logo{
+        width: 90%;
+    }
     .contenedor_logo div{
         width: 100%;
         justify-content: center;
     }
     .contenedor_logo img{
         width: 100%;
+        height: 100%;
     }
     .contenedor_menu {
+        width: 100%;
         flex-wrap: wrap;
     } 
     .contenedor_menu li{
+        height: 40px;
         width: 100%;
         text-align: center;
+        border-bottom: solid rgb(255, 174, 0);
+    }
+    .contenedor_menu li:hover{
+        background-color: chocolate;
+        cursor: pointer;
     }
     .contenedor_carrito{
-        width: 50%;
-        float: right;
-        height: 40%;
-        background-color:rgba(0, 0, 0, 0);
+        z-index: 1;
+        position: fixed;
+        width: 60px;/*
+        margin-top: 20%;*//*
+        top: 20%;*/
+        margin-left: 60%;
+        background-color: rgba(0, 0, 0, 0.138);
+        border-radius: 50%;
+        /*height: 40%;*/
+    }
+    .car-top{
+        margin-top: 25%;
     }
     .contenedor_carrito img{
-        width: 80px; 
+        height: 55px;/*
+        width: 55px; */
     }
     .contenedor_carrito li{
         float: right;
     }
-    .icono{
-        width: 40%;
+    .icono {
+        margin-right: 70%;
+        top: 23%;
+        background-color: rgba(255, 166, 0, 0);
+        box-shadow: 0 0 30px -15px black;
+        border-radius: 50%;
     }
     .icono img{
+        right: 16%;
         width: 90px;
         height: 90px;
     }
-
+    .titulo h1, p{
+        height: 3px;
+        color: rgba(255, 255, 255, 0);
+        text-shadow: 3px -3px rgba(255, 255, 255, 0);
+    }
+    .lista-carrito{
+        min-width: fit-content;
+        float: left;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .lista-carrito img{
+        width: 80px;
+        height: 75px;
+    }
+    .conten-login{
+        margin-top: 100%;
+        top: 100%;
+    }
+    .conten-login div{
+        margin-top: 60%;
+        width: 95%;
+    }
+    .loginbox{/*
+        margin-top: 60%;*/
+        width: 275px;
+        height: 425px;
+        
+    }
 }
 @media (min-width: 768px){ /* ESCRITORIO */
     .contenedor{
-        width: 80%;
+        width: 100%;
     }
 }
 .contenedor{
@@ -87,7 +141,9 @@ header{
     list-style: 40px;
     color: white;
 }
-
+.contenedor_carrito {
+    margin-top: 10px;
+}
 .contenedor_carrito div{
     float: right;
 }
@@ -99,11 +155,13 @@ header{
     box-shadow: 0 0 30px -10px rgb(49, 54, 186);
 }
 .titulo{
+    margin-top: 2%;
     text-align: center;
     color: white;
-    text-shadow:3px 3px black;
+    text-shadow:3px -3px black;
 }
 .icono{
+    background-color: rgba(0, 0, 0, 0);
     width: auto;
     float: right;
 }
@@ -118,4 +176,7 @@ header{
     text-decoration: none;
     font-size: 20px;
 }
+
+
+
 
