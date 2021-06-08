@@ -192,6 +192,42 @@ header{
     text-decoration: none;
     font-size: 20px;
 }
+.icono:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+/* esto le da detalle a la barra de desplazamaiento  */
+::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    /* Ocultar scroll */
+   }
+   /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+   ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+   }
+   /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+   ::-webkit-scrollbar-thumb:hover {
+    background:  rgb(237, 127, 10);
+    box-shadow: 0 0 30px -10px rgb(49, 54, 186);
+    /*
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);*/
+   }
+   /* Cambiamos el fondo cuando esté en active */
+   ::-webkit-scrollbar-thumb:active {
+    background-color: rgb(237, 127, 10);
+   }
+   /* Ponemos un color de fondo y redondeamos las esquinas del track */
+   ::-webkit-scrollbar-track {
+    background: #cccccc;
+    border-radius: 4px;
+   }
+   /* Cambiamos el fondo cuando esté en active o hover */
+   ::-webkit-scrollbar-track:hover,
+   ::-webkit-scrollbar-track:active {
+   background: #d4d4d4;
+   }
 
 
 

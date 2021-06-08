@@ -16,16 +16,21 @@ nav{
 .contenedor_menu li{
     padding: 15px;
 }
+.contenedor_menu a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 100%;
+}
 .contenedor_menu li:hover{
+    border-radius: 2px;
     background-color: chocolate;
     color: white;
-    cursor: pointer;
+    box-shadow: 0 0 40px -10px rgb(49, 54, 186);
 }
-nav li a{
+li a{
     font-size: 18px;
     text-decoration: none;
     color: white;
-    line-height: 0px;
 }
 .contenedor_logo{
     width: 70%;
