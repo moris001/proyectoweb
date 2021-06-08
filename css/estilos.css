@@ -14,12 +14,17 @@ body{
     src: url(../fuentes/CODE\ Bold.otf), url(../fuentes/CODE\ Light.otf);
     background: url(../imagenes/bg.jpeg) no-repeat center top;
     background-size: cover;
-    height: 100vh; 
+    height: auto; 
 }
 header{
     background-color: rgba(255, 255, 255, 0.234)
 }
 @media (max-width: 600px){ /* TABLET */
+    body{
+    background: url(../imagenes/bg.jpeg) no-repeat center top;
+    background-size: cover;
+    height: auto; 
+    }
     header{
         width: 100%;
     }
@@ -100,18 +105,23 @@ header{
         height: 75px;
     }
     .conten-login{
-        margin-top: 100%;
-        top: 100%;
+        width: 100%;
+        height: auto;
+        margin-top: 10%;/*
+        top: 0%;*/
     }
-    .conten-login div{
-        margin-top: 60%;
+    .loginbox{
+        margin-top: 15%;
+        width: 90%;
+        height: auto;
+    }
+    .wrap{
+        background-color:rgba(0, 0, 0, 0);
         width: 95%;
+        padding: 2px;
     }
-    .loginbox{/*
-        margin-top: 60%;*/
-        width: 275px;
-        height: 425px;
-        
+    .contenedor-formulario {
+        width: 100%;
     }
 }
 @media (min-width: 768px){ /* ESCRITORIO */
@@ -129,7 +139,7 @@ header{
     flex-wrap: wrap;
 }
 .Bpagina{
-    margin-top: 50px;
+    margin-top: 5%;
     width: 100%;
     background-color: rgb(31, 114, 238);
     display: flex;

@@ -6,33 +6,27 @@
     font-family: sans-serif;
     height: 100vh; 
 }*/
-.conten-login body{
-    margin: auto;
-    width: 100%;
-    margin-top: 20%;
-    display: flex;
-    justify-content:center;
-}
-.loginbox{
-    margin: 50%;
+.loginbox{/*
+    margin: 50%;*/
+    border-radius: 5px;
     width: 330px;
-    height: 460px;
+    height: auto;
     background: rgba(0, 0, 0, 0.309);
     box-shadow: 0 0 40px -10px rgb(49, 54, 186);
-    color:#fff;/*
-    top: 60%;
-    left: 50%;*/
-    position: absolute;
-    transform: translate(-50%, -50%);
-    padding: 70px 30px;
+    color:#fff;
+    padding: 70px 30px 30px;
+    margin-top: 10%;
+    /*
+    left: 50%;
+    position: absolute;*//*;*//*
+    */
 }
 
-.loginbox .logo{
+.logo2{
+    margin-top: -120px;
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    height: auto;
     position: absolute;
-    top: -50px;
     left: calc(50% - 50px);
 }
 
@@ -86,4 +80,9 @@
 .loginbox a:hover {
     color: #fff;
     text-align: center;
+}
+.conten-login{
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
