@@ -123,6 +123,12 @@ header{
     .contenedor-formulario {
         width: 100%;
     }
+    .table-responsive{
+        width: 100%;
+    }
+    .table-responsive table{
+        width: 100%;
+    }
 }
 @media (min-width: 768px){ /* ESCRITORIO */
     .contenedor{
