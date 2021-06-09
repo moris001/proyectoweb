@@ -152,7 +152,6 @@ header{
     flex-wrap: wrap;
 }
 .Bpagina{
-    margin-top: 5px;
     width: 100%;
     background-color: rgb(31, 114, 238);
     display: flex;
@@ -234,7 +233,15 @@ header{
    ::-webkit-scrollbar-track:hover,
    ::-webkit-scrollbar-track:active {
    background: #d4d4d4;
+   }/*
+   .nombres{
+       background-color: black;
    }
+   .nombres p{
+       color: white;
+        padding-left: 20px;
+        text-align: left;
+   }*/
 
 
 

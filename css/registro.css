@@ -29,10 +29,7 @@
 .contenedor-formulario .formulario .input-group {
   position: relative;
   margin-bottom: 32px;
-  height: 60px;
-}
-.contenedor-formulario .formulario .input-group :hover{
-  box-shadow: 0 0 40px 5px rgb(49, 81, 186);
+  height: 70px;
 }
 .contenedor-formulario .formulario .input-group input[type="text"],
 .contenedor-formulario .formulario .input-group input[type="email"],
@@ -85,8 +82,8 @@
 .contenedor-formulario .formulario .input-group label.label.active {
   top: -12px;
   font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
+  line-height: 12px;
+  color: #B6B6B6;
 }  
 .contenedor-formulario .formulario .input-group.error label {
   color: #D32F2F; 
@@ -125,7 +122,7 @@
 }
 .contenedor-formulario .formulario input[type="submit"] {
   background: #46a2fd;
-  border-radius: 5px;
+  border-radius: 1px;
   border: 2px solid #f2f2f2;
   color: #fff;
   cursor: pointer;
@@ -138,12 +135,4 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.contenedor-formulario .formulario input[type="submit"]:hover {
-  box-shadow: 0 0 40px 5px rgb(49, 54, 186);
-  background: rgb(82, 149, 250)/*#1976D2*/;
-}
 
-.foo{
-  text-align: left;
-}
-  

@@ -7,11 +7,12 @@
     background-color: white;
 }
 .slider{
+    margin: 5px;
     border-radius: 5px;
     box-shadow: 0 0 60px -1px rgb(49, 54, 186);
     margin-top: 30px;
     justify-content: center;
-    width: 60%;
+    width: 40%;
     height: 100%;
     overflow: hidden;
 }.slider ul{
@@ -40,7 +41,6 @@
     75%{margin-left: -300% ;}
     100%{margin-left: -300% ;}
 }
-
 
 
 /*/*
