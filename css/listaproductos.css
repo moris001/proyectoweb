@@ -6,7 +6,40 @@
     width: 95%;
     background-color: white;
 }
-
+.slider{
+    border-radius: 5px;
+    box-shadow: 0 0 60px -1px rgb(49, 54, 186);
+    margin-top: 30px;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate-reverse linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100% ;}
+    45%{margin-left: -100% ;}
+    
+    50%{margin-left: -200% ;}
+    70%{margin-left: -200% ;}
+    
+    75%{margin-left: -300% ;}
+    100%{margin-left: -300% ;}
+}
 
 
 

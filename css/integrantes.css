@@ -1,0 +1,33 @@
+.contacto{
+    background: rgba(0, 0, 0, 0.309);
+    box-shadow: 0 0 40px -10px rgb(49, 54, 186);
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 350px;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    text-align:center;
+}
+.contacto img{
+    box-shadow: 0 0 40px -10px rgb(49, 54, 186);
+    align-items: center;
+    border: solid black;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.contacto img:hover{
+    border: solid chocolate;
+    transform: scale(1.01);
+    opacity: 1;
+}
+.contacto p{
+    text-align: left;
+}
+.contacto:hover{
+    background: rgba(0, 0, 0, 0.309);
+    box-shadow: 0 0 60px -10px chocolate;
+}
